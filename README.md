@@ -1,5 +1,6 @@
 # Island Fox Simulations
-Scripts for simulations in "Purging of strongly deleterious mutations explains long-term persistence and absence of inbreeding depression in island foxes" by Robinson et al. (2018).
+### Scripts for simulations in "Purging of strongly deleterious mutations explains long-term persistence and absence of inbreeding depression in island foxes" by Robinson et al. (2018).
+
 
 __SimCoalescent_SanNicolasPeaks_msprime:__ Scripts and files to run coalescent simulations under putative models of San Nicolas island fox demographic history in msprime (Kelleher et al., 2016).
 
