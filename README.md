@@ -1,7 +1,7 @@
 # Island Fox Simulations
 Scripts for simulations in "Purging of strongly deleterious mutations explains long-term persistence and absence of inbreeding depression in island foxes" by Robinson et al. (2018).
 
-\n\n
+
 
 **_SimCoalescent_SanNicolasPeaks_msprime_**
 
@@ -11,7 +11,7 @@ Scripts and files for coalescent simulations under putative models of San Nicola
 - `SNI_ABC_posteriors_100.txt` contains parameters in the 100 best fitting San Nicolas demographic models from Robinson et al., 2016. The columns are Ne4, T, Ne3, Ne1.
 - `Wong2010_dogRecRates_perbp.txt` contains per-site recombination rates in 1 Mb chunks of the dog genome, from Wong et al., 2010.
 
-\n
+
 
 **_SimForward_IslandMainlandVariation_SLiM_**
 
