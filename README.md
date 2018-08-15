@@ -4,6 +4,7 @@ Scripts for simulations in "Purging of strongly deleterious mutations explains l
 
 
 **SimCoalescent_SanNicolasPeaks_msprime**
+
 Scripts and files to run coalescent simulations under putative models of San Nicolas island fox demographic history in msprime (Kelleher et al., 2016).
 
 - `sim_SNIgenomes_msprime.py` runs the simulations in msprime.
@@ -12,6 +13,7 @@ Scripts and files to run coalescent simulations under putative models of San Nic
 
 
 **SimForward_IslandMainlandVariation_SLiM**
+
 Scripts to run forward simulations of neutral and deleterious variation in island and mainland populations in SLiM (Haller and Messer, 2016).
 
 - `run_slim_del_var.sh` executes the `make_slim_[model].job.sh` script given a set of parameters and a specific model, and submits the SLiM job.
