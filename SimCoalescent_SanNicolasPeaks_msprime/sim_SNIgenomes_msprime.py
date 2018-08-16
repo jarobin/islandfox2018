@@ -1,5 +1,5 @@
 # Script to simulate San Nicolas island fox genomes under neutrality in  msprime (v0.5.0) 
-# for analysis of peaks of heterozygosity.
+# for analysis of peaks of heterozygosity. Implemented with python2.7
 #
 # Performs 1000 simulations, each generating 220 10 Mb "chromosomes" in four individuals.
 # Each simulation generates and writes to its own output folder.
@@ -16,7 +16,6 @@
 # 1988.
 #
 # Usage (msprime must be installed): python ./sim_SNIgenomes_msprime.py
-# Implemented with python2.7
 
 
 import sys
@@ -37,14 +36,10 @@ def runSimulator(simNum, chrNum, seedNum, Ne4, T, Ne3, Ne1, recRate):
     # Sample one individual (two haplotypes) in 1929, two individuals in 1988, and
     # one individual in 2000
     samples=[
-        msprime.Sample(population=0, time=71), 
-        msprime.Sample(population=0, time=71), 
-        msprime.Sample(population=0, time=12), 
-        msprime.Sample(population=0, time=12), 
-        msprime.Sample(population=0, time=12), 
-        msprime.Sample(population=0, time=12),
-        msprime.Sample(population=0, time=0),
-        msprime.Sample(population=0, time=0)
+        msprime.Sample(population=0, time=71), msprime.Sample(population=0, time=71), 
+        msprime.Sample(population=0, time=12), msprime.Sample(population=0, time=12), 
+        msprime.Sample(population=0, time=12), msprime.Sample(population=0, time=12),
+        msprime.Sample(population=0, time=0), msprime.Sample(population=0, time=0)
     ]
     # Define parameters for the simulation
     tree_sequence=msprime.simulate(
