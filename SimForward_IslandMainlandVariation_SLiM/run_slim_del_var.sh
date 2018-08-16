@@ -1,9 +1,10 @@
 # Submission script for forward simulations in SLiM to examine levels of neutral and 
 # deleterious mutations in a small island relative to a large mainland population.
-#
-# This script writes a SLiM job script and then executes it.
-# SLiM must be installed. Change paths as necessary.
 # Implemented with SLiM version 2.4.2
+# 
+# This script writes a SLiM job script and then executes it.
+#
+# SLiM must be installed. Change paths as necessary.
 #
 # Scripts to make jobs specific to each model are required (e.g. make_slim_split.job.sh)
 #
